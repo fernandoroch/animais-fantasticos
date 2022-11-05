@@ -7,10 +7,10 @@ export default function initAnimacaoScroll() {
     function aminaScroll() {
       sections.forEach((section) => {
         const sectionTop = section.getBoundingClientRect().top;
-        const isSectionVisible = sectionTop - windowMetade < 0;
+        const isSectionVisible = (sectionTop - windowMetade) < 0;
         if (isSectionVisible) {
           section.classList.add("activeScroll");
-        }else {
+        }else if(section.classList.contains("activeScroll")) {
           section.classList.remove("activeScroll");
         }
       });

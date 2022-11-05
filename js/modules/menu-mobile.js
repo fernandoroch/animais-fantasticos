@@ -17,5 +17,3 @@ function openMenu(){
 }
 
 menuButton.addEventListener('click', openMenu)
-
-console.log(menuButton)
