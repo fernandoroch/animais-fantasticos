@@ -1,10 +1,7 @@
 import outSideClick from "./outsideclick.js";
 
 export default function initmenuMobile() {
-
-}
-
-const menuButton = document.querySelector('[data-menu="button"]')
+  const menuButton = document.querySelector('[data-menu="button"]')
 const menuList = document.querySelector('#menu')
 
 function openMenu(){
@@ -17,3 +14,6 @@ function openMenu(){
 }
 
 menuButton.addEventListener('click', openMenu)
+}
+
+
