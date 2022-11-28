@@ -1,30 +1,23 @@
 {
-  "name": "animais-fantasticos",
+  "name": "animais-eslint",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "build": "webpack --mode production --entry ./js/script.js -o ./main.js",
-    "dev": "webpack --mode development --watch --entry ./js/script.js -o ./main.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fernandoroch/animals-.git"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fernandoroch/animals-/issues"
-  },
-  "homepage": "https://github.com/fernandoroch/animals-#readme",
   "devDependencies": {
-    "eslint": "^8.27.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.0"
-  },
-  "dependencies": {
-    "eslint-config-prettier": "^8.5. 0"
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
   }
 }
